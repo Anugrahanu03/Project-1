@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Project One</title>
+</head>
+
+<body>
+    <header>
+        <h1>Anugrah</h1>
+        <i class="fa-solid fa-bars burger"></i>
+    </header>
+
+    <section class="gallery">
+        <div class="images">
+            <div class="images--row">
+                <div class="image"><img src="./images/1.jpg" alt="1"></div>
+                <div class="image"><img src="./images/2.jpg" alt="2"></div>
+                <div class="image"><img src="./images/3.jpg" alt="3"></div>
+                <div class="image"><img src="./images/4.jpg" alt="4"></div>
+            </div>
+            <div class="images--row">
+                <div class="image"><img src="./images/5.jpg" alt="5"></div>
+                <div class="image"><img src="./images/6.jpg" alt="6"></div>
+                <div class="image"><img src="./images/7.jpg" alt="7"></div>
+                <div class="image"><img src="./images/1.jpg" alt="8"></div>
+            </div>
+            <div class="images--row">
+                <div class="image"><img src="./images/2.jpg" alt="9"></div>
+                <div class="image"><img src="./images/3.jpg" alt="10"></div>
+                <div class="image"><img src="./images/4.jpg" alt="11"></div>
+                <div class="image"><img src="./images/5.jpg" alt="12"></div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#">«</a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">»</a>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="profile">
+            <div class="about">
+                <h3>About Me</h3>
+                <img src="./images/avatar_hat.jpg" alt="avatar">
+                <div class="about--text">
+                    <h4>My Name</h4>
+                    <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit,
+                        sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>e-mail: example@example.com</p>
+                    <p>tel: 5353 35531</p>
+                </div>
+            </div>
+            <div class="skills">
+                <h4>Technical Skills</h4>
+                <div class="skill">
+                    <h5>Photography</h5>
+                    <div class="bar">
+                        <div class="progress">70%</div>
+                    </div>
+                    <h5>Web Design</h5>
+                    <div class="bar">
+                        <div class="progress">70%</div>
+                    </div>
+                    <h5>Photoshop</h5>
+                    <div class="bar">
+                        <div class="progress">70%</div>
+                    </div>
+                </div>
+                <button>Download Resume</button>
+            </div>
+            <hr>
+            <div class="cost">
+                <h4>How much I charge</h4>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card--head">
+                            <h3>Basic</h3>
+                        </div>
+                        <div class="card--body">
+                            <div class="body-1">
+                                <h5>Web Design</h5>
+                                <hr>
+                                <h5>Photography</h5>
+                                <hr>
+                                <h5>5GB Storage</h5>
+                                <hr>
+                                <h5>Mail Support</h5>
+                                <hr>
+                            </div>
+                            <div class="body-2">
+                                <h4>$ 10</h4>
+                                <p>per month</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="card--footer">
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--head">
+                            <h3>Pro</h3>
+                        </div>
+                        <div class="card--body">
+                            <div class="body-1">
+                                <h5>Web Design</h5>
+                                <hr>
+                                <h5>Photography</h5>
+                                <hr>
+                                <h5>50GB Storage</h5>
+                                <hr>
+                                <h5>Endless Support</h5>
+                                <hr>
+                            </div>
+                            <div class="body-2">
+                                <h4>$ 25</h4>
+                                <p>per month</p>
+                            </div>
+                        </div>
+                        <div class="card--footer">
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="contact-form">
+            <h3>Contact Me</h3>
+            <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new
+                people!</p>
+            <form action="https://formspree.io/f/mknaazpz" method="POST" autocomplete="new-password">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" autocomplete="new-password">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="new-password">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <input type="text" name="message" id="message" autocomplete="new-password">
+                </div>
+                <div class="submit">
+                    <input type="submit" class="btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer--info">
+            <h4>INFO</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aut magnam sapiente voluptas ullam,
+                recusandae animi maiores eveniet non voluptatem.</p>
+        </div>
+        <div class="footer--blog">
+            <h4>Blog Posts</h4>
+            <div class="blogs">
+                <div class="blog">
+                    <img src="./images/workshop.jpg" alt="">
+                    <div class="blog-text">
+                        <h5>Lorem</h5>
+                        <p>Sed mattis nunc</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="blog">
+                    <img src="./images/gondol.jpg" alt="">
+                    <div class="blog-text">
+                        <h5>Ipsum</h5>
+                        <p>Sed mattis nunc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer--tags">
+            <h4>Popular Tags</h4>
+            <div>
+                <p>Travel</p>
+                <p>New York</p>
+                <p>London</p>
+                <p>IKEA</p>
+                <p>Norway</p>
+                <p>Travel</p>
+                <p>Travel</p>
+                <p>Travel</p>
+                <p>Travel</p>
+                <p>Travel</p>
+                <p>Travel</p>
+            </div>
+        </div>
+    </footer>
+    <div id="snackbar">Message sent</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
